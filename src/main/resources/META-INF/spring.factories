@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.hgj.easyservice.whitelist.config.WhiteListProperties
