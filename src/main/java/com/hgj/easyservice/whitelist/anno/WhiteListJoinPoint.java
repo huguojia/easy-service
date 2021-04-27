@@ -13,17 +13,13 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.stereotype.Component;
-
-import javax.annotation.Resource;
 import java.lang.reflect.Method;
 
 /**
- * @description: WhiteListJoinPoint <br>
- * @date: 2021/4/20 16:29 <br>
- * @author: huguojia <br>
- * @version: 1.0 <br>
+ description: WhiteListJoinPoint
+ date: 2021/4/20 16:29
+ author: huguojia
+ version: 1.0
  */
 @Aspect
 public class WhiteListJoinPoint {
